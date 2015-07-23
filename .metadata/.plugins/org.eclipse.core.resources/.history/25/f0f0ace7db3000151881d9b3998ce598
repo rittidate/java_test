@@ -1,0 +1,8 @@
+package subclass;
+import mainclass.*;
+
+public class Child {
+	public Child(){
+		System.out.println(new Mother().x);
+	}
+}

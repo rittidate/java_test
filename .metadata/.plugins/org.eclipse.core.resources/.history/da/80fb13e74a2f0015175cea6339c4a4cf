@@ -1,0 +1,14 @@
+
+public class Employee {
+	public int empId;
+	private double salary;
+	public String timeIn;
+	public String timeOut;
+	
+	public static void main(String args[]){
+		Employee employee = new Employee();
+		employee.empId = 2264;
+		employee.salary = 20000;
+		employee.timeIn = "08.30";
+	}
+}
