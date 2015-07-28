@@ -1,0 +1,16 @@
+package com.lynda.files;
+
+import java.io.BufferedInputStream;
+import java.io.InputStream;
+import java.net.URL;
+
+public class ReadNetworkFile {
+
+	public static void main(String[] args) {
+		
+		URL url = new URL("http://services.explorecalifornia.org/rss/tour.php");
+		InputStream stream = url.openStream();
+		BufferedInputStream buf = new BufferedInputStream(stream);
+	}
+
+}

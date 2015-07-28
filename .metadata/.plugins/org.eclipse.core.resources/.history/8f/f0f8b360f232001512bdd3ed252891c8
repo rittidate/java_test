@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		getArrayItem();
+
+	}
+
+	private static void getArrayItem() {
+		String[] strings = {"Welcome!"};
+		System.out.println(strings[1]);
+	}
+
+}

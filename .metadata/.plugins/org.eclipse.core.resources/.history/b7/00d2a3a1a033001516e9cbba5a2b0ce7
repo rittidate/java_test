@@ -1,0 +1,13 @@
+package com.lynda.files;
+
+import java.net.URL;
+
+public class ReadNetworkFile {
+
+	public static void main(String[] args) {
+		
+		URL url = new URL("");
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class IncreaseOperator {
+	public static void main(String args[]){
+		int intVariable = 10;
+		
+		System.out.println(intVariable ++);
+		System.out.println(intVariable);
+		
+		System.out.println(++ intVariable);
+		System.out.println(intVariable);
+	}
+}

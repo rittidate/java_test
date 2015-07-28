@@ -1,0 +1,20 @@
+package com.lynda.files;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+
+public class ReadXML {
+
+	public static void main(String[] args) {
+		
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder builder = factory.newDocumentBuilder();
+		Document doc = builder.parse("http://www.abc.net.au/syndication/rss-childrens-epg.xml");
+		
+		NodeList list= doc.getElementsByTagName("title");
+		
+	}
+
+}

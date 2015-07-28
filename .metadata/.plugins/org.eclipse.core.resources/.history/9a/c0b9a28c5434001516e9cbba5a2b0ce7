@@ -1,0 +1,14 @@
+package com.lynda.files;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
+public class ReadXML {
+
+	public static void main(String[] args) {
+		
+		DocumentBuilderFactory factory = 
+				DocumentBuilderFactory.newInstance();
+		
+	}
+
+}
